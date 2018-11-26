@@ -94,6 +94,9 @@ class ViewController: UIViewController {
         storyTextView.text = story1
         topButton.setTitle(answer1a, for: .normal)
         bottomButton.setTitle(answer1b, for: .normal)
+        restartButton.isHidden = true
+        topButton.isHidden = false
+        bottomButton.isHidden = false
     }
 
 }

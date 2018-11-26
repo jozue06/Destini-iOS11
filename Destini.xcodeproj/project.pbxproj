@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846BEEC721ABA35E009FF6AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BEEC621ABA35E009FF6AD /* Images.xcassets */; };
 		EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */; };
 		EBB1C7431B9633A60011F5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7421B9633A60011F5C3 /* ViewController.swift */; };
 		EBB1C7461B9633A60011F5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB1C7441B9633A60011F5C3 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		846BEEC621ABA35E009FF6AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBB1C73B1B9633A60011F5C3 /* Destini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Destini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB1C73F1B9633A60011F5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */,
 				EBB1C7421B9633A60011F5C3 /* ViewController.swift */,
 				EBB1C7441B9633A60011F5C3 /* Main.storyboard */,
+				846BEEC621ABA35E009FF6AD /* Images.xcassets */,
 				EBB1C7491B9633A60011F5C3 /* LaunchScreen.xib */,
 				EBB1C73E1B9633A60011F5C3 /* Supporting Files */,
 			);
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846BEEC721ABA35E009FF6AD /* Images.xcassets in Resources */,
 				EBB1C7461B9633A60011F5C3 /* Main.storyboard in Resources */,
 				EBB1C74B1B9633A60011F5C3 /* LaunchScreen.xib in Resources */,
 			);

@@ -59,20 +59,16 @@
                                     <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="17E-TM-9cz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ixD-6R-hzS">
-                                <rect key="frame" x="16" y="560" width="343" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="qiJ-T5-Wnm"/>
-                                </constraints>
-                                <state key="normal" title="Top Button">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9O-Oj-eY9">
+                                <rect key="frame" x="113" y="567" width="148" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Restart Button">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2gw-M3-dGc"/>
-                                    <action selector="restartButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hSX-4j-f9g"/>
-                                    <action selector="restartPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wkw-g3-5Yw"/>
+                                    <action selector="restartPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qe4-vB-gNR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -95,14 +91,14 @@
                     </view>
                     <connections>
                         <outlet property="bottomButton" destination="YYD-qC-cgr" id="oTr-dl-hKK"/>
-                        <outlet property="restartButton" destination="ixD-6R-hzS" id="grL-Tk-k4X"/>
+                        <outlet property="restartButton" destination="x9O-Oj-eY9" id="dRN-Ib-4fD"/>
                         <outlet property="storyTextView" destination="amk-E0-c5D" id="TU8-d8-Hye"/>
                         <outlet property="topButton" destination="u0E-Z6-us4" id="Dfm-eR-Gan"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320" y="286.95652173913044"/>
+            <point key="canvasLocation" x="319.19999999999999" y="286.50674662668666"/>
         </scene>
     </scenes>
     <resources>
